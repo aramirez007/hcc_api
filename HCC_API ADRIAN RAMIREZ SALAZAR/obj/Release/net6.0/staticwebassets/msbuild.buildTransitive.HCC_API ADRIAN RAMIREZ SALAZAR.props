@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\HCC_API ADRIAN RAMIREZ SALAZAR.props" />
+</Project>

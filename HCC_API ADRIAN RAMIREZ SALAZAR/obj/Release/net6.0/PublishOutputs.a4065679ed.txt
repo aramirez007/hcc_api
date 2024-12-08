@@ -1,0 +1,44 @@
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\HCC_API ADRIAN RAMIREZ SALAZAR.exe
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\appsettings.Development.json
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\appsettings.json
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\HCC_API ADRIAN RAMIREZ SALAZAR.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\HCC_API ADRIAN RAMIREZ SALAZAR.runtimeconfig.json
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\HCC_API ADRIAN RAMIREZ SALAZAR.pdb
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.Data.SqlClient.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.EntityFrameworkCore.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.Identity.Client.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.IdentityModel.Logging.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.OpenApi.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Microsoft.Win32.SystemEvents.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\System.Configuration.ConfigurationManager.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\System.Drawing.Common.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\System.Runtime.Caching.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\System.Security.Permissions.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\System.Windows.Extensions.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Adrian Ramirez\Documents\HCC_API ADRIAN RAMIREZ SALAZAR\HCC_API ADRIAN RAMIREZ SALAZAR\Docker_HCCAPI\HCC_API ADRIAN RAMIREZ SALAZAR.deps.json

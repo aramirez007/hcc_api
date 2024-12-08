@@ -1,0 +1,542 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "HCC_API ADRIAN RAMIREZ SALAZAR",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Ordenes/total-ordenes": {
+      "get": {
+        "tags": [
+          "Ordenes"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ordenes/mesas-disponibles": {
+      "get": {
+        "tags": [
+          "Ordenes"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ordenes/crear-orden": {
+      "post": {
+        "tags": [
+          "Ordenes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrdenRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrdenRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrdenRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ordenes/agregar-producto/{ordenId}": {
+      "put": {
+        "tags": [
+          "Ordenes"
+        ],
+        "parameters": [
+          {
+            "name": "ordenId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HccOrdenDetalle"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HccOrdenDetalle"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HccOrdenDetalle"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ordenes/actualizar-estatus/{ordenId}": {
+      "put": {
+        "tags": [
+          "Ordenes"
+        ],
+        "parameters": [
+          {
+            "name": "ordenId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ordenes/eliminar-orden/{ordenId}": {
+      "delete": {
+        "tags": [
+          "Ordenes"
+        ],
+        "parameters": [
+          {
+            "name": "ordenId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ApiResponse": {
+        "type": "object",
+        "properties": {
+          "estatus": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mensaje": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigo": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HccAlmacen": {
+        "type": "object",
+        "properties": {
+          "alm_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "alm_cantidad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "alm_fecha_actualizacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "alm_estatus": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HccCatEstatusOrden": {
+        "type": "object",
+        "properties": {
+          "catord_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "catord_nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "catord_estatus": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HccMesa": {
+        "type": "object",
+        "properties": {
+          "mes_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mes_lugares": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mes_disponibles": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mes_estatus": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HccOrden": {
+        "type": "object",
+        "properties": {
+          "ord_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mes_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "catord_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ord_fecha_inicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ord_estatus": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mesas": {
+            "$ref": "#/components/schemas/HccMesa"
+          },
+          "estatusOrden": {
+            "$ref": "#/components/schemas/HccCatEstatusOrden"
+          },
+          "ordenDetalles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HccOrdenDetalle"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HccOrdenDetalle": {
+        "type": "object",
+        "properties": {
+          "orddet_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ord_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pro_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "orddet_cantidad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "orddet_estatus": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "orden": {
+            "$ref": "#/components/schemas/HccOrden"
+          },
+          "producto": {
+            "$ref": "#/components/schemas/HccProducto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HccProducto": {
+        "type": "object",
+        "properties": {
+          "pro_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "alm_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pro_nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "pro_descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "pro_precio": {
+            "type": "number",
+            "format": "double"
+          },
+          "pro_estatus": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "almacen": {
+            "$ref": "#/components/schemas/HccAlmacen"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrdenRequest": {
+        "type": "object",
+        "properties": {
+          "nuevaOrden": {
+            "$ref": "#/components/schemas/HccOrden"
+          },
+          "ordenDetalles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HccOrdenDetalle"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

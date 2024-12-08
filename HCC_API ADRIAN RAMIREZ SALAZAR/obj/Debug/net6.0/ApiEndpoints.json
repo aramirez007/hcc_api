@@ -1,0 +1,177 @@
+[
+  {
+    "ContainingType": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Controllers.OrdenesController",
+    "Method": "ActualizarEstatus",
+    "RelativePath": "api/Ordenes/actualizar-estatus/{ordenId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ordenId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "nuevoEstatus",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Models.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Controllers.OrdenesController",
+    "Method": "AgregarProducto",
+    "RelativePath": "api/Ordenes/agregar-producto/{ordenId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ordenId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "detalleOrden",
+        "Type": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Models.HccOrdenDetalle",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Models.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Controllers.OrdenesController",
+    "Method": "CrearOrden",
+    "RelativePath": "api/Ordenes/crear-orden",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ordenRequest",
+        "Type": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Controllers.OrdenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Models.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Controllers.OrdenesController",
+    "Method": "EliminarOrden",
+    "RelativePath": "api/Ordenes/eliminar-orden/{ordenId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ordenId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Models.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Controllers.OrdenesController",
+    "Method": "GetMesasDisponibles",
+    "RelativePath": "api/Ordenes/mesas-disponibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Models.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Controllers.OrdenesController",
+    "Method": "GetTotalOrdenes",
+    "RelativePath": "api/Ordenes/total-ordenes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Models.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HCC_API_ADRIAN_RAMIREZ_SALAZAR.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HCC_API_ADRIAN_RAMIREZ_SALAZAR.WeatherForecast, HCC_API ADRIAN RAMIREZ SALAZAR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
